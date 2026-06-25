@@ -142,7 +142,7 @@ function LoadingScreen({ onDone }) {
       const lower=svgL.querySelector('#L'+id);
       let x=-90;
       const stageW=stage.offsetWidth||680;
-      const speed=0.65+Math.random()*0.6;
+      const speed=2.2+Math.random()*0.6;
       let frame=0,mouthOpen=false,wordIdx=0;
 
       const iv=setInterval(()=>{
